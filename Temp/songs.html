@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style4.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <script defer src="script1.js"></script>
+    <title>Music Player | OnlineITtuts Tutorials</title>
+  </head>
+  <body>
+    <div class="background">
+      <img src="imgs_audio/img-1.jpg" id="bg_img" />
+    </div>
+<div class="container">
+      <!--===============Player Image================= -->
+      <div class="player_img">
+        <img src="data:image/jpeg;base64,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" id="cover" class="active" />
+      </div>
+      <!--============Player Content -->
+      <h2 id="music_title">Night Changes</h2>
+      <h3 id="musric_artist">One Direction</h3>
+      <!--==============Player Progress & Timmer -->
+      <div class="player_progress" id="player_progress">
+        <div class="progress" id="progress">
+          <div class="music_duration">
+            <span id="current_time">0:00</span>
+            <span id="duration">4:01</span>
+          </div>
+        </div>
+      </div>
+      <!--==============Player Controllers -->
+      <div class="player_controls">
+        <i class="fa-solid fa-backward" title="Previous" id="prev"></i>
+        <i class="fa-solid fa-play play-button" title="Play" id="play"></i>
+        <i class="fa-solid fa-forward" title="Next" id="next"></i>
+      </div>
+    </div>
+  </body>
+</html>

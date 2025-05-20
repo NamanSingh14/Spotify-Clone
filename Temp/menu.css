@@ -1,0 +1,72 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:darkgreen;
+}
+
+#menu {
+    background-image: url('starbucks-menu-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 0 20px;
+}
+
+.menu-header {
+    margin-bottom: 40px;
+}
+
+.menu-header h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.menu-header p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item {
+    display: flex;
+    flex-basis: calc(50% - 20px);
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.menu-item:nth-child(2n) {
+    margin-left: 40px;
+}
+
+.menu-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.menu-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.menu-item p {
+    font-size: 18px;
+    line-height: 1.5;
+}

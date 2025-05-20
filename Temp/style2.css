@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: darkgreen;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+  }
+  
+  .artist-info {
+    flex: 1;
+    margin-right: 2rem;
+  }
+  
+  .artist-image {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(10, 222, 3, 0.1);
+  }
+  
+  .artist-name {
+    margin: 1rem 0;
+    font-size: 2rem;
+  }
+  
+  .artist-bio {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  .songs-list {
+    flex: 1;
+  }
+  
+  .songs-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .songs-list-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .song-item {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0;
+  }
+  
+  .song-number {
+    font-size: 1.2rem;
+    margin-right: 1rem;
+  }
+  
+  .song-name {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #131413;
+  }
